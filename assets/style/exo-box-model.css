@@ -1,0 +1,32 @@
+.square {
+  width: 50px;
+  height: 50px;
+}
+
+#correction {
+  width: 500px;
+  border: 1px dotted black;
+  margin: 20px auto;
+}
+
+#sq1 {
+  margin: 20px auto;
+  border: 5px solid tomato;
+}
+
+#sq2 {
+  margin: 50px 30px 40px;
+  padding: 20px;
+  border: thick double #3527b8;
+}
+
+#sq3 {
+  border: 5px dashed brown;
+  margin: 50px 40px;
+  padding: 5px 20px 30px;
+}
+
+#sq4 {
+  border: 2px ridge purple;
+  padding: 10px 20px;
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@font-face{
+  font-family: 'Custom';
+  src: url('../font/RampartOne-Regular.ttf');
+}
+
+h1 {
+  font-size: 40px;
+  font-style: italic;
+}
+
+.paragraphe {
+  width: 400px;
+  text-align: justify;
+}
+
+.purple {
+  background-color: rgba(185, 30, 185, 0.555);
+  color: white;
+}
+
+#paragraphe1 {
+  font-family: 'Open Sans', sans-serif;
+  color: tomato;
+  letter-spacing: 5px;
+  line-height: 25px;
+}
+
+#paragraphe2 {
+  font-family: 'Custom';
+  text-decoration: underline dotted black;
+  font-weight: bold;
+  text-transform: uppercase;
+}

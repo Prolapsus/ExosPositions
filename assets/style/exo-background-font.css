@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Custom';
+  src: url('../font/VujahdayScript-Regular.ttf');
+}
+
+.poupee {
+  border: 1px solid black;
+  background-size: cover;
+  background-position: cover;
+}
+
+#poupee1 {
+  background-image: url(../img/deadpool\ \(1\).jpg);
+  width: 800px;
+  height: 500px;
+}
+
+#poupee2 {
+  background-image: url(../img/deadpool\ \(2\).jpg);
+  width: 600px;
+  height: 400px;
+}
+
+#poupee3 {
+  background-image: url(../img/lilith.jpg);
+  width: 400px;
+  height: 300px;
+}
+
+#poupee4 {
+  background-image: url(../img/hatsune.jpg);
+  width: 200px;
+  height: 200px;
+}
+
+
+p {
+  color: tomato;
+  text-align: justify;
+  width: 400px;
+  font-family: 'Custom';
+}

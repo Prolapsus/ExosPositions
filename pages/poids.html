@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poids des sélecteurs</title>
+  <link rel="stylesheet" href="../assets/style/general.css">
+  <link rel="stylesheet" href="../assets/style/poids.css">
+</head>
+<body>
+  <div class="corps">
+    <a href="../index.html">Accueil</a>
+    <h1>Poids des sélecteurs</h1>
+    <!-- div#poids>p.paragraphe*4>lorem -->
+    <h2>Exemple</h2>
+    <div id="poids">
+      <p class="paragraphe" id="paragraphe1" data-test="test2">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum iusto assumenda ut tenetur nam quas quisquam temporibus magni? Incidunt delectus magni nisi dicta eveniet omnis exercitationem minima sapiente consectetur eum!
+      </p>
+      <p class="paragraphe" id="paragraphe2" data-test="test">
+        Dolorem quaerat repellat animi id nihil minus quod impedit, eligendi voluptate amet facilis perspiciatis repudiandae est iure laboriosam soluta numquam incidunt sunt. Maiores culpa sapiente enim molestias ad, rerum fuga.
+      </p>
+      <p class="paragraphe">
+        Laudantium perferendis magni eos omnis voluptatum minima quia illum nulla, a repellendus, dolor, ipsam necessitatibus quas nihil ratione vero in saepe esse sed. Praesentium, quas eveniet minima veritatis eaque dolor!
+      </p>
+      <div class="paragraphe test">
+        Ea dolore vero mollitia eos nemo numquam obcaecati animi asperiores dicta nisi pariatur debitis, nesciunt eius eveniet libero porro sint quaerat! Ex ab debitis praesentium itaque cumque. Delectus, doloribus ex.
+      </div>
+    </div>
+    <hr>
+    <h2>Exercices</h2>
+    <!-- ul>li*8 -->
+    <ul>
+      <li>Bleu</li>
+      <li class="vert">Vert</li>
+      <li name="ha">Orange</li>
+      <li>Bleu</li>
+      <li name="ha">Orange</li>
+      <li name="ha" class="vert">Vert</li>
+      <li id="rose">Rose</li>
+      <li>Bleu</li>
+    </ul>
+  </div>
+</body>
+</html>

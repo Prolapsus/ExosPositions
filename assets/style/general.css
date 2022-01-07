@@ -1,0 +1,26 @@
+@font-face {
+  src:url('../font/Roboto-Regular.ttf');
+  font-family: 'Roboto';
+}
+
+body {
+  background-color: #b6b2b2;
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.corps {
+  margin: 0 auto;
+  width: 50%;
+  min-width: 800px;
+  background-color: white;
+  padding: 10px;
+  min-height: 95vh;
+}
+p {
+  text-align: justify;
+}
+
+.text-center {
+  text-align: center;
+}

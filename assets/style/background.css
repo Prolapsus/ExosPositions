@@ -1,0 +1,34 @@
+#hatsune {
+  color : white;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  background-image: url(../img/hatsune.jpg);
+  /*
+    background-size:
+    - cover: recadrer l'image dans la zone disponible
+    - contain: contenir l'image en entier au moins une fois
+    < = > contain on pourra utiliser "background-repeat" pour afficher plus d'une fois l'image : repeat | no-repeat
+  */  
+
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+
+  /*
+   En cover, si l'image ne s'affiche pas, on va pouvoir recadrer l'image grâce à :
+   background-position: center | left | right | top | bottom
+   */
+   background-position: right center;
+}
+
+
+#center {
+  width: 800px;
+  margin: 20px auto;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#center img {
+  width: 200px;
+}
