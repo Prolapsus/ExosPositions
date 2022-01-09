@@ -1,0 +1,33 @@
+#skyblue {
+    position: relative;
+    width: 390px;
+    height: 390px;
+}
+#green {
+    position: relative;
+    width: 150px;
+    height : 150px;
+    top : 30px;
+    left: 30px;
+}
+#blue {
+    position: relative;
+    width: 150px;
+    height : 150px;
+    left: 210px;
+    top: -120px;
+}
+#orange {
+    position: relative;
+    width: 150px;
+    height : 150px;
+    bottom: 90px;
+    left: 30px;
+}
+#yellow {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    bottom: 240px;
+    left: 210px;
+}

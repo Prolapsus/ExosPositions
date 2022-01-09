@@ -24,3 +24,33 @@ p {
 .text-center {
   text-align: center;
 }
+
+.border-box {
+  box-sizing: border-box;
+  border : 1px solid black;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+
+#skyblue {
+  background-color: skyblue;
+}
+#white {
+  background-color: white;
+}
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
+}
+#orange {
+  background-color: orange;
+}
+#yellow {
+  background-color: yellow;
+}
