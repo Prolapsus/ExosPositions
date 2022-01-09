@@ -1,0 +1,28 @@
+#skyblue {
+    width: 390px;
+    height: 390px;
+}
+#green {
+    width: 149px;
+    height : 149px;
+    top : 30px;
+    left: 30px;
+}
+#blue {
+    width: 149px;
+    height : 149px;
+    top: -119px;
+    left: 209px;
+}
+#orange {
+    width: 149px;
+    height : 149px;
+    top: -88px;
+    left: 30px;
+}
+#yellow {
+    width: 149px;
+    height: 149px;
+    top: -237px;
+    left: 209px;
+}

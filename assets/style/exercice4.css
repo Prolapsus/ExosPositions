@@ -1,32 +1,27 @@
 
 #white {
-    position: relative;
     width: 500px;
     height: 400px;
 }
 #skyblue {
-    position: absolute;
     width: 480px;
     height: 50px;
     top : 5px;
     left: 9px;
 }
 #green {
-    position: absolute;
     width: 130px;
     height: 130px;
     top: 140px;
     left: 140px;
 }
 #blue {
-    position: absolute;
     width: 70px;
     height: 70px;
-    top: 30px;
-    left: 30px;
+    top: 29px;
+    left: 29px;
 }
 #orange {
-    position: absolute;
     width: 70px;
     height: 70px;
     top: 125px;

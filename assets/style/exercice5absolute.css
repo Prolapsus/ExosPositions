@@ -1,0 +1,41 @@
+#skyblue {
+    width: 390px;
+    height: 390px;
+}
+/* Afin de rendre la figure symetrique, je prends en compte le border-box appliqué sur toutes les box.
+La position de départ est en haut à gauche mais décalée de 1px top et 1px left à cause de la bordure 1px du #skyblue.
+De gauche à droite on retrouve donc:
+. 1px bordure left
+. +30px déplacement de #green vers la droite
+. +149px width de #green (border box donc "tout compris")
+. +??px de vide
+. +149px width de #blue
+. +30px de déplacement de #blue (de droite à gauche cette fois ci)
+. +1px de bordure right
+taille de skyblue = 390px
+390 - (1+30+149+149+30+1) = 30
+--> l'espace de vide fait donc bien 30px, notre figure est symétrique */
+#green {
+    width: 149px;
+    height : 149px;
+    top : 30px;
+    left: 30px;
+}
+#blue {
+    width: 149px;
+    height : 149px;
+    top : 30px;
+    right: 30px;     /* (équivalent à left:209px) */
+}
+#orange {
+    width: 149px;
+    height : 149px;
+    bottom: 30px;
+    left: 30px;
+}
+#yellow {
+    width: 149px;
+    height : 149px;
+    bottom: 30px;
+    right: 30px;
+}
