@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #b6b2b2;
+  background-image: url(../img/bleach.jpg);
+  background-repeat: no-repeat;
   margin: 0;
   font-family: 'Roboto';
 }
